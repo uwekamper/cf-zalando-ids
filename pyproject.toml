@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cf-zalando-ids"
+version = "0.1.0"
+description = "Automatically create 20k+ IDs for the circular.fashion project with Zalando in 2020"
+authors = ["Uwe Kamper <me@uwekamper.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
